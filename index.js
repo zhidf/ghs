@@ -52,7 +52,7 @@ try {
 } catch (e) {}
 
 // 4. 动态读取 UUID 并写入配置文件
-let UUID = '3b4956b4-7950-47b9-87a4-0b745c2a6ef6';
+let UUID = '0febdf96-c364-4a8a-af2b-7707e102e31a';
 try {
   if (fs.existsSync(configPath)) {
     const configData = JSON.parse(fs.readFileSync(configPath, 'utf8'));
